@@ -96,8 +96,8 @@ Behavior on Cache Mismatch
 
 An attacker can always avoid creating a cache mismatch by simply
 randomizing his ZID.  To simplify the behavior surrounding a cache
-mismatch while maintaining security, we simply need to give the
-attacker no advantage against randomizing his ZID.
+mismatch while maintaining security, we only need to give the attacker
+no advantage against randomizing his ZID.
 
 On a cache mismatch the interface must show the Not Secure state until
 the user verifies the SAS.
