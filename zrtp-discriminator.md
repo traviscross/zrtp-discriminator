@@ -137,7 +137,7 @@ the software.
 
 `Date: 2014-08-15`
 
-`Document Version: v0.3`
+`Document Version: v0.4`
 
 `Document ID: be11702b-66df-4404-b9f4-346c8e900253`
 
