@@ -65,7 +65,9 @@ If we cannot connect to the server via TLS with an appropriate cipher
 suite, or we cannot authenticate the server's TLS certificate, we must
 drop the call.
 
-If the server does not offer secure media, we must drop the call.
+If the server does not offer or answer with only secure media, or we
+would offer or answer with other than only secure media, we must drop
+the call.
 
 If we would send RTP rather than SRTP for any reason, we must drop the
 call.  If we receive RTP rather than SRTP we must silently discard the
