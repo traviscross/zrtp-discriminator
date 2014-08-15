@@ -138,4 +138,4 @@ the software.
 
 Copyright (c) 2014 Travis Cross
 
-Distribution of this document is unlimited.
+Distribution of this memo is unlimited.
