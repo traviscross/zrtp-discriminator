@@ -49,9 +49,9 @@ trusted ("trusted-server secure").  This is our security baseline.  If
 we can't create a secure connection with the server the call will not
 complete at all.
 
-A call will be Secure only after two users have verified the SAS on
-either the current call or on a previous call and there are no
-security exceptions.
+A call will be Secure only when there are no security exceptions and
+either the local user has verified the SAS on the current call or both
+users have verified the SAS on a previous call.
 
 DoS Security Exceptions
 -----------------------
