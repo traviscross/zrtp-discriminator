@@ -107,6 +107,15 @@ As described in RFC 6189 Section 4.6.1.1, the cache must not be
 manipulated at all until the user verifies the SAS.  This prevents the
 attacker from clearing a legitimate security association.
 
+Prompting for the SAS Comparison
+--------------------------------
+
+A user may not know what it means if the words on screen do not match.
+If we only provide one path forward or encourage one answer over
+another, we risk prompting the user to lie to us.  We must ask the
+user plainly whether the words match, the words do not match, or the
+user wishes to compare the words later.
+
 Behavior on SAS Mismatch
 ------------------------
 
