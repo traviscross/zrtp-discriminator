@@ -164,9 +164,9 @@ the software.
 
 `Author: Travis Cross <tc@traviscross.com>`
 
-`Date: 2014-08-15`
+`Date: 2014-10-19`
 
-`Document Version: v0.4`
+`Document Version: v0.5`
 
 `Document ID: be11702b-66df-4404-b9f4-346c8e900253`
 
