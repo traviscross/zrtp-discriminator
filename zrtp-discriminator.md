@@ -127,6 +127,25 @@ either dropping the call or simply showing Not Secure.  The humans are
 going to have to work this one out on their own, and we need to give
 them the information they need to understand their predicament.
 
+Secure State
+------------
+
+We move to the Secure state only after the ZRTP negotiation has
+completed successfully and when either the ZRTP Verified flag is set
+in the cache or the local user indicates to the software that the
+words on screen match.
+
+If any security exception other than an SAS mismatch has occurred, we
+will have already dropped the call and so cannot move into the Secure
+state.
+
+Not Secure State
+----------------
+
+The Not Secure state is shown whenever the Secure state cannot yet be
+shown, or when we must revert to this state as described in this
+document.
+
 Summary
 -------
 
