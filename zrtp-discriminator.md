@@ -44,10 +44,10 @@ In this model there are only two states: Secure and Not Secure.
 Secure means the call is end-to-end secure.  This is the highest
 security level.
 
-Not Secure means the call is at best secure only if the server can be
-trusted ("trusted-server secure").  This is our security baseline.  If
-we can't create a secure connection with the server the call will not
-complete at all.
+Not Secure simply means the call is other than Secure; it is at best
+secure only if the server can be trusted ("trusted-server secure").
+This is our security baseline.  If we can't create a secure connection
+with the server the call will not complete at all.
 
 A call will be Secure only when there are no security exceptions and
 either the local user has verified the SAS on the current call or both
