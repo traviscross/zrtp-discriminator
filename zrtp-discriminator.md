@@ -86,10 +86,11 @@ hash of the actual received ZRTP Hello message, we must drop the call.
 Changing the Cache Name
 -----------------------
 
-If the user edits an existing cache name, we must clear the ZRTP
-Verified flag and revert the interface to the Not Secure state.  This
-is to prevent users from "fixing" the cache name of an attacker --
-thinking a simple error has occurred -- without rechecking the SAS.
+If the user edits an existing cache name but has not verified the SAS
+on the current call, we must clear the ZRTP Verified flag and revert
+the interface to the Not Secure state.  This is to prevent users from
+"fixing" the cache name of an attacker -- thinking a simple error has
+occurred -- without rechecking the SAS.
 
 Behavior on Cache Mismatch
 --------------------------
